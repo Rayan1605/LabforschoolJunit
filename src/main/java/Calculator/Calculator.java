@@ -1,9 +1,14 @@
+package Calculator;
+
 public class Calculator {
 
-    private int a;
-    private int b;
+    private int a = 0;
+    private int b = 0;
 
-    Calculator(int a, int b) {
+    Calculator(){
+
+    }
+    public Calculator(int a, int b) {
         this.a = a;
         this.b = b;
     }
