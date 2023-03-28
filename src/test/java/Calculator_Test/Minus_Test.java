@@ -4,13 +4,11 @@ import Calculator.Calculator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-public class Testing_add {
+public class Minus_Test {
     Calculator calculator = new Calculator(2,2);
 @Test
-@DisplayName("Testing the add method")
-    public void test_add() {
-     assertEquals(4, calculator.add());
+@DisplayName("Testing the subtract method")
+    public void test_minus() {
+        assertEquals(0, calculator.subtract());
     }
-
-
 }
