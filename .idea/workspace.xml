@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14157613-4da4-494e-a77a-2d2523f266a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicTest.java" afterDir="false" />
+    <list default="true" id="14157613-4da4-494e-a77a-2d2523f266a3" name="Changes" comment="Adding the methods">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Calculator_Test/Testing_add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +21,16 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -53,15 +55,34 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Testing_add.test_add">
     <configuration name="BasicTest.justAnExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabwithMaven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
+      <option name="PACKAGE_NAME" value="Calculator_Test" />
+      <option name="MAIN_CLASS_NAME" value="Calculator_Test.BasicTest" />
       <option name="METHOD_NAME" value="justAnExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing_add.test_add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabwithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculator_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Calculator_Test" />
+      <option name="MAIN_CLASS_NAME" value="Calculator_Test.Testing_add" />
+      <option name="METHOD_NAME" value="test_add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,6 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Testing_add.test_add" />
+        <item itemvalue="JUnit.BasicTest.justAnExample" />
         <item itemvalue="JUnit.BasicTest.justAnExample" />
       </list>
     </recent_temporary>
@@ -81,11 +104,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680010587619</updated>
-      <workItem from="1680010588783" duration="848000" />
+      <workItem from="1680010588783" duration="1936000" />
     </task>
+    <task id="LOCAL-00001" summary="FirstPart">
+      <created>1680012066252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680012066252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding the methods">
+      <created>1680012378720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680012378720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FirstPart" />
+    <MESSAGE value="Adding the methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the methods" />
   </component>
 </project>
